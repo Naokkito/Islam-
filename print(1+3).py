@@ -7,9 +7,9 @@
 #print("Fahrenheit:" + str(b))
 
 s = int(input("enter seconds:"))
-n = s/3600 
+n = s//3600 
 c = n%3600
-f = c/60
+f = c//60
 d = c%60
 
 print(str(s) + " seconds is " + str(n)  + " hours " + str(c) + " minutes " + str(d) + " s " )
