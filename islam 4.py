@@ -43,8 +43,8 @@ while True:
         break
     try:
         c = int(input_u)
-        sum = c + c
-        num = 1 + 1
+        sum += c
+        num += 1
     except:
         print("invalid input. enter a number")
 if num > 0:
