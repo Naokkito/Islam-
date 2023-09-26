@@ -22,11 +22,11 @@ except:
 
 try:
    hours = int(input("enter hours:"))
-    rate = int(input("enter rate:"))
-    salary = hours*rate
-    if hours < 40:
+   rate = int(input("enter rate:"))
+   salary = hours*rate
+   if hours < 40:
        print(salary)
-    else:
+   else:
         if hours >= 40:
             print((40*rate) + ((hours%40)*1.5)*10)
 except:
